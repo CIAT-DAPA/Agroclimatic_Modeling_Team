@@ -53,26 +53,26 @@ Interactive **Shiny** dashboard to visualize and analyze vegetation/spectral ind
 
 ## 📂 Project Structure
 
-Expected folder layout:
-├─ app.R
-├─ Main_Shape/
-│  ├─ Main_Shape.shp
-│  ├─ Main_Shape.shx
-│  ├─ Main_Shape.dbf
-│  ├─ Main_Shape.prj
-│  └─ (optional) Main_Shape.cpg
-└─ Indices_Agroclimaticos/
-   ├─ GCI_tif/
-   ├─ LAI_tif/
-   ├─ NDVI_classified_tif/   # Map visualization
-   ├─ NDVI_tif/              # Raw NDVI for analysis
-   ├─ NDWI_tif/
-   ├─ VCI_classified_tif/
-   ├─ GNDVI_tif/
-   ├─ EVI_tif/
-   └─ MSAVI_tif/
-
----
+```text
+.
+├── app.R
+├── Main_Shape/
+│   ├── Main_Shape.shp
+│   ├── Main_Shape.shx
+│   ├── Main_Shape.dbf
+│   ├── Main_Shape.prj
+│   └── Main_Shape.cpg (optional)
+└── Indices_Agroclimaticos/
+    ├── GCI_tif/
+    ├── LAI_tif/
+    ├── NDVI_classified_tif/   # Map visualization
+    ├── NDVI_tif/              # Raw NDVI for analysis
+    ├── NDWI_tif/
+    ├── VCI_classified_tif/
+    ├── GNDVI_tif/
+    ├── EVI_tif/
+    └── MSAVI_tif/
+```
 
 ## File Naming Convention (Important)
 
